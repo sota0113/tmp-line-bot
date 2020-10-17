@@ -4,7 +4,7 @@
 ## Architecture
 メインロジックの[lambda_function.py](./lambda_function.py)はAWS Lambdaで動作。  
 現在DB不在。なるべくお金がかからないサービスを選定中。  
-![image](./image/goApiServer.png)
+![image](./image/tmp-architecture.png)
 
 https://github.com/sota0113/tmp-line-bot/blob/main/image/tmp-architecture.png
 
