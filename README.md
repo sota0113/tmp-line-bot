@@ -6,8 +6,6 @@
 現在DB不在。なるべくお金がかからないサービスを選定中。  
 ![image](./image/tmp-architecture.png)
 
-https://github.com/sota0113/tmp-line-bot/blob/main/image/tmp-architecture.png
-
 ## Deployment
 AWS Lambdaのpython3.xのデフォルト環境では不足するライブラリがあるため、必要なファイル一式をzipでアップロードする必要があります。   
 今回不足したreqstsライブラリは既に本repoに用意済みですが念の為以下に手順を記します。  
