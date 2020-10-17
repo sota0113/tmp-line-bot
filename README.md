@@ -4,6 +4,9 @@
 ## Architecture
 メインロジックの[lambda_function.py](./lambda_function.py)はAWS Lambdaで動作。  
 現在DB不在。なるべくお金がかからないサービスを選定中。  
+![image](./image/goApiServer.png)
+
+https://github.com/sota0113/tmp-line-bot/blob/main/image/tmp-architecture.png
 
 ## Deployment
 AWS Lambdaのpython3.xのデフォルト環境では不足するライブラリがあるため、必要なファイル一式をzipでアップロードする必要があります。   
