@@ -28,11 +28,11 @@ def lambda_handler(event, context):
     match = bool(re.match(r".*バド.*", message))
     if match == True:
         items_one = ("了解","はいよ","おっけ","はーい")
-        items_two = ("","頑張れー","頑張ってください","プロテイン忘れずに","")
+        items_two = ("",,"","プロテイン忘れずに")
         items_punc_one = ("","","。","！")
         items_punc_two = ("","","。","！")
         num_one = random.randint(0, 3)
-        num_two = random.randint(0, 4)
+        num_two = random.randint(0, 2)
         num_punc_one = random.randint(0, 2)
         num_punc_two = random.randint(0, 2)
         return_msg = items_one[num_one]+items_punc_one[num_punc_one]+items_two[num_two]+items_punc_two[num_punc_two]
